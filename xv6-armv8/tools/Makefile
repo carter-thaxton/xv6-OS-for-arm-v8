@@ -1,6 +1,7 @@
 include ../makefile.inc
 
 CFLAGS = -Werror -Wall
+CFLAGS += -Wno-macro-redefined
 CFLAGS += -iquote ../
 
 all: mkfs
